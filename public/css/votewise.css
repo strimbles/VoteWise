@@ -135,7 +135,7 @@ table {
   box-sizing: border-box;
 }
 body {
-  background: #000000 no-repeat url("../img/bg-main.jpg");
+  background: #000000 no-repeat url("../images/bg-main.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -149,6 +149,9 @@ footer {
   text-align: left;
   margin-top: 15px;
   padding: 15px;
+}
+.xclear {
+  clear: both;
 }
 body {
   font-size: 16px;
@@ -190,14 +193,14 @@ h6 {
   height: 130px;
 }
 .logo-home {
-  background: no-repeat url("../img/vwlogo.png");
+  background: no-repeat url("../images/vwlogo.png");
   background-size: 573.2px 238.4px;
   width: 573.2px;
   height: 238.4px;
   margin: 25px 0 50px;
 }
 .logo {
-  background: no-repeat url("../img/vwlogo.png");
+  background: no-repeat url("../images/vwlogo.png");
   background-size: 200.62px 83.44px;
   width: 200.62px;
   height: 83.44px;

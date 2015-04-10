@@ -2,22 +2,9 @@
     <header id="header-top">
     <div class="logo"></div>
 </header>
-        {{ elements.getMenu() }}
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Donate</li>
-                <li>Profile</li>
-                <li>Express Yourself</li>
-                <li>Learn</li>
-                <li>Discuss</li>
-                <li>Help</li>
-                <li>Contact</li>
-
-            </ul>
-        </nav>
-    </div>  <!-- right -->
-</div>  <!-- right -->
+<nav>
+    {{ elements.getMenu() }}
+</nav>
 <div class="main-content">
     {{ content() }}
     <footer>

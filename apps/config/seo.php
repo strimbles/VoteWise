@@ -52,38 +52,6 @@ function getSeo($moduleName) {
           ),
         ),
       ),
-      'donate' => array(
-        'caption' => 'Donate',
-        'url' => 'donate',
-        'action' => 'index',
-        'id' => '',
-        'class' => '',
-        'liLink' => array (
-            'lclass' => '',
-            'iclass' => '',
-            'sclass' => '',
-            'useCaptionInSpan' => false,
-            'data'   => array(
-                'toggle'    => ''
-            ),
-        ),
-        'submenu' => array(
-          '' => array(
-            'caption' => '',
-            'url' => '',
-            'action' => '',
-            'id' => '',
-            'class' => '',
-            'liLink' => array (
-                'lclass' => '',
-                'iclass' => '',
-                'sclass' => '',
-                'useCaptionInSpan' => false,
-            ),
-            'any' => true,
-          ),
-        ),
-      ),
       'profile' => array(
         'caption' => 'Profile',
         'url' => 'profile',
